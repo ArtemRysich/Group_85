@@ -1,0 +1,41 @@
+/* .box{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.item-black{
+    background-color: black;
+}
+.item-green {
+    background-color: green;
+}
+
+.item-red{
+    background-color: red;
+} */
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.item{
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.item-img{
+    width: 300px;
+    height: 200px;
+}
+
+.modal{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
